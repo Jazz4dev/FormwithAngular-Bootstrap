@@ -1,0 +1,105 @@
+<mat-horizontal-stepper>
+    <mat-step label="DETAILS">
+        <p>
+        <div class="container">
+            <div class="form-row">
+                <div class="col">
+                    <p>First Name :</p> <input type="text" class="form-control" placeholder="First name"
+                        style="height: 21px;width: 200px;">
+                </div>
+                <div class="col">
+                    <p>Last Name :</p> <input type="text" class="form-control" placeholder="Last name"
+                        style="height: 21px;width: 200px;">
+                </div>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <p for="inputEmail4">Email :</p><input type="email" class="form-control" id="inputEmail4"
+                            style="height: 21px;width: 200px;">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <p for="inputPassword4">Password :</p>
+                        <input type="password" class="form-control" id="inputPassword4"
+                            style="height: 21px;width: 200px;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p for="inputAddress">Address :</p>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"
+                        style="height: 21px;width: 200px;">
+                </div>
+                <div class="form-row">
+                    <p for="inputState">State:</p>
+                    <select id="inputState" class="form-control">
+                        <option selected>Maharashtra</option>
+                        <option>Telengana</option>
+                        <option>Gujarat</option>
+                    </select>
+                    <p for="inputState">City:</p>
+                    <select id="inputState" class="form-control">
+                        <option selected>Nanded</option>
+                        <option>Hyderabad</option>
+                        <option>Surat</option>
+                    </select>
+                    <div class="form-group col-md-4">
+                        <p for="inputState">Zip Code:</p>
+                        <select id="inputState" class="form-control">
+                            <option selected>431604</option>
+                            <option>500008</option>
+                            <option>868778</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <p class="form-check-p" for="gridCheck">
+                            I accept all the Terms & Conditions
+                        </p>
+                    </div>
+                </div>
+            </form>
+            <button mat-button mat-raised-button color="primary" matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="VERIFICATION">
+        <p>
+        <div class="container">
+            <div>
+                <h2>Verify Your Identity</h2>
+                <h4>Please upload any of these document to verify your Identity</h4>
+            </div>
+            <div class="id">
+                <ul>
+                    <li>
+                        Govt. ID Card
+                    </li>
+
+                    <li>
+                        Passport <img src="../assets/rit.jpeg" alt="rit"
+                            style="height: 20px;width: 20px;position: relative;left: 20%;border-radius: 1rem;">
+                    </li>
+
+                    <li>
+                        Driving License
+                    </li>
+                    <li>
+                </ul>
+            </div>
+            <button class="btn1" mat-raised-button color="white" style="width: 14%;height: 58px;"><img
+                    src="https://img.icons8.com/windows/32/000000/cloud.png" style="padding: 7px;" />Choose
+                Files</button>
+            <p style="padding: 50px;font-size: medium;">
+                * File Added
+            </p>
+            <button mat-raised-button color="white" matStepperPrevious style="margin: 25px;">Previous</button>
+            <button mat-button mat-raised-button color="primary" matStepperNext>Submit</button>
+        </div>
+    </mat-step>
+</mat-horizontal-stepper>
+<div class="footer">
+    <h6>
+        @ 2020 jazz.inc
+    </h6>
+</div>
