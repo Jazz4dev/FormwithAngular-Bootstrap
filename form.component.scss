@@ -1,0 +1,141 @@
+
+body {
+    background: rgb(19, 18, 18);
+    height: auto;
+    width: 100%;
+    
+
+}
+
+.input-cont {
+    margin: 30px 0;
+    padding: 50px;
+    width: 90%;
+    color: rgb(195, 216, 235);
+    background: #3b445c;
+    position: relative;
+    left: 2%;
+    text-align: center;
+    margin-bottom: 45px;
+
+
+}
+.col {
+    margin: 10px;
+    padding: 3px;
+   
+  
+}
+li {
+    list-style: none;
+}
+.abt-cont li  {
+    color:white;
+    padding:50px;
+    justify-content: center;
+    margin-left: 80px;
+    position: relative;
+    top: 35px;
+    left: -5%;
+    width: 20%;
+    z-index: 2;
+    
+   
+}
+.form-control {
+    background: #3b445c ; 
+    color: white;
+    border-radius: 0.4rem;
+    width: 340px; 
+    padding: 0 38px;
+    border: 1px solid #415f77;
+}
+
+
+.col i {
+    float: left;
+    position: relative;
+    top: 10px;
+    width: 10px;
+    left: 30px;
+}
+.col input  {
+    margin-left: 40px;
+    outline: none;
+    background: none;
+    margin:0 20px;
+    color: white;
+    width: 90%;
+}
+.abt-cont p {
+    position: relative;
+    right: 36px;
+    margin: 20px ;
+    font-size: small;
+} 
+.progress {
+    width: 86%;
+    position: relative;
+    top: 100px;
+    height: 7px;
+    left: 40px;
+}
+.progress-bar{
+  
+    background-color: rgb(204, 88, 107);
+}
+.circle {
+    content: "";
+    background:rgb(204, 88, 107);
+    height: 50px;
+    width: 50px;
+    border-radius: 2rem;
+    position: relative;
+    top: 21px;
+    left: 110px;
+    display: inline-block;
+}
+.btn-pri ,.btn-sec {
+    margin: 0 30px ;
+    height: 35px;
+    width: 120px;
+    border-radius: 0.3rem;
+  
+    
+}
+.btn-pri {
+    background: #204e74;
+    color: white;
+    position: relative;
+    right: 30%;
+}
+.btn-sec{
+    background: #cf420a;
+    color: white;
+    position: relative;
+    left: 30%;
+}
+img {
+    height: 200px;
+    width: 250px;
+}
+.form-group {
+    width: 13%;
+    position: relative;
+    left: 43.5%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.form-group input {
+    border-radius: 1rem;
+ 
+}
+.btn-sec:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background: cornflowerblue;
+    
+  }
+.btn-pri:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background: cornflowerblue;
+  }
